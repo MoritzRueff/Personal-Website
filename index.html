@@ -16,47 +16,50 @@
 
 <body>
     <main>
-        <section>
-    <h2>Welcome to my personal website</h2>
+    <section>
+        <h2>Welcome to my personal website</h2>
 
-    <h3>Photo:</h3>
-    <img src=https://images.pexels.com/photos/7919/pexels-photo.jpg?cs=srgb&dl=pexels-life-of-pix-7919.jpg&fm=jpg
+        <h3>Photo:</h3>
+         <img src=https://images.pexels.com/photos/7919/pexels-photo.jpg?cs=srgb&dl=pexels-life-of-pix-7919.jpg&fm=jpg
         width ="500"
         />
         <figcaption><em>Image 1 - Author Moritz</em></figcaption>
-        </section>
-
-        <section>
-    <h3>Interests & Skills:</h3>
-    <div>
-        <label for="Skill">Skills:</label><br>
-        <textarea name="skill" id="skill">HTML5, CSS3, JavaScript ES2020, React 17, styled-components, React Styleguidist, React Router, Node.js, npm, Express, MongoDB, mongoose, Git/Github Workflow, Jest, Cypress, Figm
-        </textarea>
-        </div>
-        
-        <div>
-        <label for="Interests">Interests:</label><br>
-        <textarea name="Interests" id="Interests">Bikes, nature, IT, other cultures
-        </textarea>
-        </div>
-
-        </section>
-
-     <!--   
-    <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-        <li>Skill 4</li>
-    </ul>
-    -->
-    <section>
-    <h3 id="contact">Contac informations:</h3>
-    <div>
-        <p>E-Mail: moritzrueff@mail.com</p>
-        <p>Phone: 0151 XXXXXXX</p>
-    </div>
     </section>
+
+    <section>
+        <h3>Interests & Skills:</h3>
+        <div>
+        <h4>Skills:</h4>
+        <ul>
+            <li>CSS3</li>
+            <li>JavaScript ES2020</li>
+            <li>React 17</li>
+            <li>styled-components</li>
+        </ul>
+
+        </div>
+        <h4>Interests:</h4>
+        <ul>
+            <li>nature</li>
+            <li>sport </li>
+            <li>other cultures</li>
+        </ul>
+        </div>
+     </section>
+    
+        <section>
+         <h3 id="contact">Contac informations:</h3>
+        <div>
+            <label for="E-Mail">E-Mail:</label><br>
+            <textarea name="E-Mail" id="E-Mail">moritzrueff@mail.com
+            </textarea>
+            </div>
+            <div>
+                <label for="Phone number">Phone number:</label><br>
+                <textarea name="Phone number" id="phone number">0151 123456778
+                </textarea>
+                </div>
+     </section>
 
     <section>
     <h3 id="links" >Links to other profiles:</h3>
@@ -68,29 +71,45 @@
     </section>    
         
     <section>
-    <h3 id="bio">About me</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, earum!</p> 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, earum!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, earum!</p>
+        <h3 id="bio">About me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, earum!</p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, earum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, earum!</p>
     </section>  
 
     <section>
-    <h3>CV</h3>
-        <p>This is my CV</p>
-
-        <dl>
-            <dt><strong>Studies</strong></dt>
-                <dd>Uni</dd>
-                <dd>Uni</dd>
+        <h3>CV</h3>
+            <h4>This is my CV:</h4>
+            <dl>
+                <dt><strong>Studies</strong></dt>
+                    <dd>Uni</dd>
+                    <dd>Uni</dd>
         
-            <dt><strong>Work</strong></dt>
-                <dd>PMMG</dd>
-                <dd>DEE</dd>
+                <dt><strong>Work</strong></dt>
+                    <dd>PMMG</dd>
+                <   dd>DEE</dd>
         </dl>
+        <form method="POST">
+            <div>
+            <p>Stay in contact:</p>
+            <label for="Mail">Mail</label><br>
+            <input id="Mail" name="Mail" type="text"/> 
+            </div>
+
+        <!--
+        <table>
+            <tr>
+            <th>Datum</th>
+            <th>Ausbildung</th>
+            <th>Jobs
+            </tr>
+            <tr>
+                <td>2020</td>
+            </tr>
+        </table>
     </section>
-
-    </main>
+-->
         <footer><em>Copyright by Moritz Rueff, 2021</em></footer>
-
+    </main>
     </body>
 </html>
