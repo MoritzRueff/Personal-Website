@@ -1,0 +1,98 @@
+* {
+    text-align: center;
+    background-color: #ccdbdc;
+    box-sizing: border-box;
+}
+
+a:hover {
+    color:rgb(255, 20, 147);
+}
+
+a:link { text-decoration: none; 
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box-1 {
+    flex:1;
+    order: 3;
+}
+.box-2 {
+    flex: 1;
+    order: 2;
+
+}
+.box-3 {
+    flex: 1;
+    order: 1;
+}
+
+.container-1 {
+    display:flex;
+    flex-direction: column;
+    border: 5px solid;
+    padding: 10px;
+}
+
+/* @media (min-width: 500px) {
+    .container-1 {
+      background-color: #c1bdb3 ;
+    }
+   }
+
+div {
+    text-align: center;
+} */
+
+footer {
+    font-size: 10px;
+    color: black;
+
+}
+h2 {
+    background-color:#090809; 
+    font-weight: lighter;
+    color: #bdede0;
+}
+
+h3 {
+    font-style: oblique;
+}
+
+/* .interest_list {
+    color:darkcyan;
+} */
+.message {
+    margin-top: 0; margin-bottom: 0; 
+}
+
+.photo {
+    border: 1px black solid;
+}
+
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* ul {
+    display: inline;
+    list-style:none;
+} */
+
+.your-message {
+    color: grey;
+    background-size: 100%;
+    border-radius: 2px; 
+    border:2px solid silver;
+}
+
+
+/* nav {
+    display: center;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
